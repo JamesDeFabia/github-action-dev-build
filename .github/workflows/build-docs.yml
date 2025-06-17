@@ -20,8 +20,8 @@ jobs:
   preamble:
     name: Publish Release
     env:
-      # Tracking H34056
-      COMMUNITY_REF: "3e6eb915ed870e0cdf0da7d05e13be93f7cb1a90"
+      # HPCC-34070 synthpii
+      COMMUNITY_REF: "94ef97e2781cf9dd43548a17135c49ac4db288f6"
       #COMMUNITY_REF:  "4feb5741059d812a12d3be7fcec938c24aa77492"
       GITHUB_ACCOUNT: ${{ github.repository_owner }}
     runs-on: ubuntu-22.04
