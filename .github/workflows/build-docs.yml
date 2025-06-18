@@ -21,7 +21,8 @@ jobs:
     name: Publish Release
     env:
       # HPCC-34070 synthpii
-      COMMUNITY_REF: "94ef97e2781cf9dd43548a17135c49ac4db288f6"
+      COMMUNITY_REF: "aea179916832d194cde4d54a18052c7723f5f2d7"
+      #COMMUNITY_REF: "94ef97e2781cf9dd43548a17135c49ac4db288f6"
       #COMMUNITY_REF:  "4feb5741059d812a12d3be7fcec938c24aa77492"
       GITHUB_ACCOUNT: ${{ github.repository_owner }}
     runs-on: ubuntu-22.04
