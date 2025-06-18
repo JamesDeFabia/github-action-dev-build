@@ -21,7 +21,7 @@ jobs:
     name: Publish Release
     env:
       # Tracking HPCC-24016SparkFiltering
-      COMMUNITY_REF: "87708d5def6e8a34c4ec241899324a1aba808361"
+      COMMUNITY_REF: "2bd6005926273856cc1586124e3356871a493226"
       #COMMUNITY_REF:  "4feb5741059d812a12d3be7fcec938c24aa77492"
       GITHUB_ACCOUNT: ${{ github.repository_owner }}
     runs-on: ubuntu-22.04
