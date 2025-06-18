@@ -21,7 +21,7 @@ jobs:
     name: Publish Release
     env:
       # HPCC-34310Zstandard
-      COMMUNITY_REF: "e31971fc061693230955aa08cfbf1901528ed0b2"
+      COMMUNITY_REF: "ec35602f2b11e12961592440d9663832a21f5511"
       #COMMUNITY_REF:  "4feb5741059d812a12d3be7fcec938c24aa77492"
       GITHUB_ACCOUNT: ${{ github.repository_owner }}
     runs-on: ubuntu-22.04
